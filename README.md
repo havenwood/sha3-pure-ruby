@@ -20,8 +20,11 @@ gem 'sha3-pure-ruby'
 ## Usage
 
 ```ruby
-Digest::SHA3.new.hexdigest ''
-#=> "0eab42de4c3ceb9235fc91acffe746b29c29a8c366b7c60e4e67c466f36a4304c00fa9caf9d87976ba469bcbe06713b435f091ef2769fb160cdab33d3670680e"
+Digest::SHA3.new.hexdigest 'default 512-bit'
+#=> "26dce8c3ea8e5ffbfbf684070ca59f9635487942bfc220b9fe94bf9b2f8a7dfa2e4e85059ead3c92f14e5d2e06076eb6643adf50481976bd52f737f89b185ae2"
+
+Digest::SHA3.new(224).hexdigest 'example 224-bit'
+#=> "d6e8cef46de550a1b50ca920c4600a6e1512af055034c45a33849133"
 ```
 
 ## Compatibility
