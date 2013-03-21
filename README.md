@@ -36,7 +36,6 @@ Digest::SHA3.new.hexdigest ''
 
 Creative Commons
 
-To the extent possible under law, Christian Neukirchen has waived all copyright and related or neighboring rights to the source code of the original Ruby implementation.
-Performance enhancements added by Clemens Gruber. Refactored, tests added, and cut into a gem by Shannon Skipper. Licensed under the Creative Commons:
+To the extent possible under law, Christian Neukirchen has waived all copyright and related or neighboring rights to the source code of the original Ruby implementation. Performance enhancements added by Clemens Gruber. Refactored, tests added, and cut into a gem by Shannon Skipper. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
 
 [https://creativecommons.org/publicdomain/zero/1.0/](https://creativecommons.org/publicdomain/zero/1.0/)
