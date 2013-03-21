@@ -17,14 +17,19 @@ Or execute `bundle` after adding this line to your app's Gemfile:
 gem 'sha3-pure-ruby'
 ```
 
-## Usage
+## Usage Examples
 
 ```ruby
-Digest::SHA3.new.hexdigest 'default 512-bit'
+Digest::SHA3.hexdigest 'default 512-bit'
 #=> "26dce8c3ea8e5ffbfbf684070ca59f9635487942bfc220b9fe94bf9b2f8a7dfa2e4e85059ead3c92f14e5d2e06076eb6643adf50481976bd52f737f89b185ae2"
+```
 
+```ruby
 Digest::SHA3.new(224).hexdigest 'example 224-bit'
 #=> "d6e8cef46de550a1b50ca920c4600a6e1512af055034c45a33849133"
+
+Digest::SHA3.hexdigest 'another way', 224
+#=> "38a4506beea632bfc21d851453a88294f02e92d9fdae1d73ab8dfb99"
 ```
 
 ## Compatibility
