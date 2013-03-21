@@ -40,6 +40,11 @@ Digest::SHA3.hexdigest 'another way', 224
 - JRuby
 - Rubinius
 
+## C-Extension Alternatives
+
+- [digest-sha3](https://github.com/phusion/digest-sha3-ruby)
+- [sha3](https://github.com/johanns/sha3#readme)
+
 ## License
 
 Creative Commons
