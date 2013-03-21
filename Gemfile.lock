@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    sha3-pure-ruby (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  sha3-pure-ruby!
