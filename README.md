@@ -34,6 +34,8 @@ Digest::SHA3.new.hexdigest ''
 
 ## License
 
+Creative Commons
+
 To the extent possible under law, Christian Neukirchen has waived all copyright and related or neighboring rights to the source code in this file.
 Minor changes by Clemens Gruber.
 Refactored, tests added, and cut into a gem by Shannon Skipper.
