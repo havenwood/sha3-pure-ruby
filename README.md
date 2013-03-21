@@ -1,4 +1,5 @@
 # Pure Ruby SHA3 Gem
+[![Build Status](https://travis-ci.org/havenwood/sha3-pure-ruby.png?branch=master)](https://travis-ci.org/havenwood/sha3-pure-ruby)
 
 A pure Ruby implementation of SHA3.
 
