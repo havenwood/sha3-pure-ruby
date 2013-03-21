@@ -24,7 +24,7 @@ Digest::SHA3.new.hexdigest ''
 #=> "0eab42de4c3ceb9235fc91acffe746b29c29a8c366b7c60e4e67c466f36a4304c00fa9caf9d87976ba469bcbe06713b435f091ef2769fb160cdab33d3670680e"
 ```
 
-## Tested On
+## Compatibility
 
 - Ruby 2.0.0
 - Ruby 1.9.3
