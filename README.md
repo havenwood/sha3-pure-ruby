@@ -7,15 +7,15 @@ A pure Ruby implementation of SHA3.
 
 Install it yourself:
 
-    $ gem install sha3-pure-ruby
-    
-Or add this line to your app's Gemfile:
+```bash
+gem install sha3-pure-ruby
+```
 
-    gem 'sha3-pure-ruby'
+Or run `bundle` after adding this line to your app's Gemfile:
 
-And then execute:
-
-    $ bundle
+```ruby
+gem 'sha3-pure-ruby'
+```
 
 ## Usage
 
