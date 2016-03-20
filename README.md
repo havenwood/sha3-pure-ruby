@@ -32,14 +32,6 @@ Digest::SHA3.hexdigest 'another way', 224
 #=> "38a4506beea632bfc21d851453a88294f02e92d9fdae1d73ab8dfb99"
 ```
 
-## Compatibility
-
-- Ruby 2.0.0
-- Ruby 1.9.3
-- Ruby 1.9.2
-- JRuby
-- Rubinius
-
 ## C-Extension Alternatives
 
 - [digest-sha3](https://github.com/phusion/digest-sha3-ruby)
