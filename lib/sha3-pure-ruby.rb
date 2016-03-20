@@ -41,7 +41,7 @@ module Digest
       width = 200 - @size * 2
       
       buffer = @buffer
-      buffer << "\x01" << "\0" * (width - buffer.size % width)
+      buffer << "\x06" << "\0" * (width - buffer.size % width)
       buffer[-1] = (buffer[-1].ord | 0x80).chr
       
       0.step buffer.size - 1, width do |j|
