@@ -21,15 +21,15 @@ gem 'sha3-pure-ruby'
 
 ```ruby
 Digest::SHA3.hexdigest 'default 512-bit'
-#=> "26dce8c3ea8e5ffbfbf684070ca59f9635487942bfc220b9fe94bf9b2f8a7dfa2e4e85059ead3c92f14e5d2e06076eb6643adf50481976bd52f737f89b185ae2"
+#=> "561ac4ec3e6bc5d3bb8a19e440441d2482d94c3932896c11c62177d1bccd8d25022ba68b8b0344c0a3fac4af5c06a17ae4372b76653c2230bae5240cde92cc55"
 ```
 
 ```ruby
 Digest::SHA3.new(224).hexdigest 'example 224-bit'
-#=> "d6e8cef46de550a1b50ca920c4600a6e1512af055034c45a33849133"
+#=> "89354196ffd570c33c70a37da19b55a9761a3ae178488ee1345b7fae"
 
 Digest::SHA3.hexdigest 'another way', 224
-#=> "38a4506beea632bfc21d851453a88294f02e92d9fdae1d73ab8dfb99"
+#=> "2e250b541367f0f86bbc6f701fb2bcd8e85c159497805580eae989e1"
 ```
 
 ## C-Extension Alternatives
